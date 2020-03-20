@@ -1,0 +1,71 @@
+.container {
+  width: 1170px;
+  max-width: 1170px;
+}
+
+#header {
+  background-color: #38C2DC;
+  padding: 12px 0;
+}
+#header #header-rg .search {
+  margin: 0 20px 0 0;
+}
+#header #header-rg .cart {
+  position: relative;
+  margin: 0 25px 0 0;
+}
+#header #header-rg .cart span {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #EC5598;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  right: -7px;
+  top: 0;
+  line-height: 17px;
+}
+#header #header-rg .language img {
+  margin: 0 10px 0 0;
+}
+#header #header-rg .language span {
+  background: url("../img/arrow.png") right center no-repeat;
+  padding: 0 10px 0 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.slider .item {
+  height: 707px;
+  position: relative;
+}
+.slider .caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 50px;
+}
+.slider .caption img {
+  width: auto;
+}
+.slider .owl-dots {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.slider .owl-dots .owl-dot {
+  display: block;
+  margin: 0 0 10px 0;
+}
+.slider .owl-dots .owl-dot span {
+  width: 3px;
+  height: 20px;
+  background-color: #979797;
+  display: block;
+}
+.slider .owl-dots .owl-dot.active span {
+  background-color: #EC5598;
+}
