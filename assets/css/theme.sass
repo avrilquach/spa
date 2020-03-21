@@ -1,85 +1,35 @@
-/* cyrillic-ext
-@font-face
-  font-family: 'Prata'
+@font-face 
+  font-family: 'Gotham-Light'
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Light.woff') format('woff'), url('../fonts/Gotham-Light.ttf')  format('truetype'), url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg')
+  font-weight: normal
   font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Prata Regular"), local("Prata-Regular"), url(../fonts/Prata-1.woff2) format("woff2")
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
 
-/* cyrillic
-@font-face
-  font-family: 'Prata'
+@font-face 
+  font-family: 'Nunito-ExtraLight'
+  src: url('../fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),  url('../fonts/Nunito-ExtraLight.woff') format('woff'), url('../fonts/Nunito-ExtraLight.ttf')  format('truetype'), url('../fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg')
+  font-weight: normal
   font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Prata Regular"), local("Prata-Regular"), url(../fonts/Prata-2.woff2) format("woff2")
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
 
-/* vietnamese
-@font-face
-  font-family: 'Prata'
+@font-face 
+  font-family: 'HLTElisa'
+  src: url('../fonts/HLTElisa.eot?#iefix') format('embedded-opentype'),  url('../fonts/HLTElisa.woff') format('woff'), url('../fonts/HLTElisa.ttf')  format('truetype'), url('../fonts/HLTElisa.svg#HLTElisa') format('svg')
+  font-weight: normal
   font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Prata Regular"), local("Prata-Regular"), url(../fonts/Prata-3.woff2) format("woff2")
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
 
-/* latin
-@font-face
-  font-family: 'Prata'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Prata Regular"), local("Prata-Regular"), url(../fonts/Prata-4.woff2) format("woff2")
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-/* cyrillic-ext
-@font-face
-  font-family: 'Nunito'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Nunito Regular"), local("Nunito-Regular"), url('../fonts/Nunito-1.woff2') format("woff2")
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
-
-/* cyrillic
-@font-face
-  font-family: 'Nunito'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Nunito Regular"), local("Nunito-Regular"), url(../fonts/Nunito-2.woff2) format("woff2")
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
-
-/* vietnamese
-@font-face
-  font-family: 'Nunito'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Nunito Regular"), local("Nunito-Regular"), url(../fonts/Nunito-3.woff2) format("woff2")
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
-
-/* latin-ext
-@font-face
-  font-family: 'Nunito'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Nunito Regular"), local("Nunito-Regular"), url(../fonts/Nunito-4.woff2) format("woff2")
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
-
-/* latin
-@font-face
-  font-family: 'Nunito'
-  font-style: normal
-  font-weight: 400
-  font-display: swap
-  src: local("Nunito Regular"), local("Nunito-Regular"), url(../fonts/Nunito-5.woff2) format("woff2")
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-.container
-    width: 1170px
-    max-width: 1170px
+button
+  outline: none !important
+a, a:hover
+  text-decoration: none
+a.button
+  color: #fff
+.button
+  background: #38C2DC
+  border-radius: 30px
+  height: 50px
+  display: inline-block
+  padding: 0 20px
+  color: #fff
+  line-height: 60px
 #header
     background-color: #38C2DC
     padding: 12px 0
@@ -102,6 +52,7 @@
                 top: 0
                 line-height: 17px
         .language
+            margin: 0 15px 0 0
             img
                 margin: 0 10px 0 0
             span
@@ -113,15 +64,29 @@
     .item
         height: 707px
         position: relative
+        background-size: cover !important
     .caption
         position: absolute
         left: 0
         right: 0
         margin: 0 auto
         bottom: 50px
-        img
-            width: auto
-            margin: 0 auto
+        text-align: center
+        h1
+          font-family: 'HLTElisa'
+          font-size: 50px
+          color: #fff
+          margin: 0 0 20px 0
+        h2
+          font-family: 'Nunito-ExtraLight'
+          font-size: 20px
+          color: #fff
+          font-weight: 400
+          line-height: 26px
+          margin: 0 0 20px 0
+        .button 
+            font-family: 'Gotham-Light'
+            font-size: 16px
     .owl-dots
         position: absolute
         right: 50px
@@ -137,3 +102,103 @@
             &.active
                 span
                     background-color: #EC5598
+.section
+  padding: 100px 0
+  &.bg-1
+    background: url("../img/background/bg1.png") center center no-repeat
+    height: 1011px
+    h2,p
+      text-align: center
+    p
+      font-size: 20px
+    .item
+      padding: 0 30px
+      &.item-1
+        a
+          border-radius: 0px 0px 20px 0px
+      &.item-2
+        margin: 60px 0 0 0
+        a
+          border-radius: 0px 20px 0px 0px
+      a
+        display: block
+        border: 2px solid #F7D3C6
+        background-color: #fff
+        img
+          width: 100%
+        h3
+          font-family: 'Nunito'
+          font-size: 20px
+          line-height: 40px
+          color: #38C2DC
+          margin: 0
+          text-align: center
+          padding: 25px 0
+          text-transform: uppercase
+  &.bg-2
+    background: url("../img/background/bg_xanh.png") center center no-repeat
+    height: 838px
+    .bg
+      background: url("../img/spa2/aa 1.png") center center no-repeat
+      height: 643px
+    .item
+      background-color: #fff
+      padding: 50px
+    .heading 
+      p
+        font-size: 16px
+        margin: 0 0 20px 0
+    .button
+      font-family: 'Nunito'
+      text-transform: uppercase
+      line-height: 50px
+      width: 320px
+      text-align: center
+      font-size: 25px
+  &.bg-3
+    background: url("../img/background/bg_grey_dichvu.png") center center no-repeat
+    height: 930px
+    .heading
+      h2
+        text-align: center
+        margin: 0 0 50px 0
+    .item
+      background-color: #F7EFEC
+      &.item-text-left, &.item-text-right
+        .text, img
+          width: 50%
+      img
+        width: 100%
+      .text
+        padding: 25px
+        h4
+          font-family: Nunito
+          font-size: 20px
+          line-height: 27px
+          margin: 0 0 10px 00
+          color: #38C2DC
+        p
+          font-size: 16px
+          line-height: 30px
+          color: #464646
+          font-family: 'Nunito-ExtraLight'
+  .heading
+    width: 100%
+    h2
+      font-family: 'Prata'
+      font-size: 40px
+      color: #38C2DC
+      text-transform: uppercase
+      margin: 0 0 20px 0
+      line-height: 147.1%
+    p 
+      font-family: 'Nunito-ExtraLight'
+      line-height: 35px
+      color: #464646
+      margin: 0 0 50px 0
+    span.line
+      width: 100px
+      height: 1px
+      background-color: #38C2DC
+      display: block
+      margin: 0 0 20px 0
