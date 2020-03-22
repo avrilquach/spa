@@ -262,7 +262,7 @@ a.button {
       .section.bg-3 .item img {
         width: 100%; }
       .section.bg-3 .item .text {
-        padding: 24px; }
+        padding: 15px; }
         .section.bg-3 .item .text h4 {
           font-family: Nunito;
           font-size: 20px;
@@ -273,7 +273,8 @@ a.button {
           font-size: 16px;
           line-height: 30px;
           color: #464646;
-          font-family: 'Nunito-ExtraLight'; }
+          font-family: 'Nunito-ExtraLight';
+          margin: 0; }
   .section.bg-4 .heading h2 {
     text-align: center;
     margin: 0 0 50px 0; }

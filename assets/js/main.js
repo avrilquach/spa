@@ -12,13 +12,32 @@ $( document ).ready(function() {
         margin: 15,
         items: 3,
         autoplay:  true,
+        responsive:{
+            0:{
+                items:1
+            },
+            991:{
+                items:2
+            },
+            1200:{
+                items:3
+            }
+        }
     })
     $('.customer').owlCarousel({
         loop: true,
         dots: true,
-        margin: 80,
+        margin: 50,
         items: 2,
         autoplay:  true,
+        responsive:{
+            0:{
+                items:1
+            },
+            1200:{
+                items:2
+            }
+        }
     })
    
 });
