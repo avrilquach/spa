@@ -190,7 +190,93 @@ a.button {
     text-align: center;
     margin: 0 0 50px 0; }
   .section.bg-4 .owl-nav .owl-prev {
-    background: url("../img/background/bg_grey_dichvu.png") no-repeat; }
+    background: url("../img/arrow-left.png") no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 30px;
+    top: 45%; }
+    .section.bg-4 .owl-nav .owl-prev span {
+      opacity: 0; }
+  .section.bg-4 .owl-nav .owl-next {
+    background: url("../img/arrow-right.png") no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 30px;
+    top: 45%; }
+    .section.bg-4 .owl-nav .owl-next span {
+      opacity: 0; }
+  .section.bg-5 {
+    background: url("../img/background/bg.jpg") center center no-repeat;
+    height: 800px; }
+    .section.bg-5 .heading h2 {
+      text-align: center;
+      margin: 0 0 50px 0; }
+    .section.bg-5 .item a {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      .section.bg-5 .item a .img {
+        position: absolute;
+        left: 25px;
+        top: 120px; }
+        .section.bg-5 .item a .img::before {
+          content: "";
+          width: 181px;
+          height: 158px;
+          border: 3px solid #FFFFFF;
+          position: absolute;
+          display: block;
+          left: -25px;
+          top: 20px;
+          z-index: 1; }
+        .section.bg-5 .item a .img img {
+          position: relative;
+          z-index: 2; }
+      .section.bg-5 .item a .text {
+        width: 380px;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 0px 20px 20px 0px;
+        height: 430px;
+        position: relative; }
+        .section.bg-5 .item a .text h4 {
+          font-family: Prata;
+          font-size: 20px;
+          line-height: 29px;
+          color: #38C2DC;
+          text-transform: uppercase;
+          margin: 0 0 10px 0; }
+        .section.bg-5 .item a .text p {
+          font-family: 'Nunito-ExtraLight';
+          line-height: 28px;
+          font-size: 16px;
+          color: #464646; }
+        .section.bg-5 .item a .text span {
+          position: absolute;
+          bottom: 50px;
+          right: 50px;
+          font-family: 'Charmonman';
+          color: #000;
+          font-size: 16px; }
+    .section.bg-5 .owl-dots {
+      text-align: center;
+      margin: 50px 0 0 0; }
+      .section.bg-5 .owl-dots .owl-dot {
+        display: inline-block;
+        margin: 0 10px 0px 0; }
+        .section.bg-5 .owl-dots .owl-dot span {
+          width: 20px;
+          height: 3px;
+          background-color: #979797;
+          display: block; }
+        .section.bg-5 .owl-dots .owl-dot.active span {
+          background-color: #EC5598; }
   .section .heading {
     width: 100%; }
     .section .heading h2 {

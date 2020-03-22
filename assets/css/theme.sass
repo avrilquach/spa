@@ -192,7 +192,93 @@ a.button
         margin: 0 0 50px 0
     .owl-nav
       .owl-prev
-        background: url("../img/background/bg_grey_dichvu.png") no-repeat
+        background: url("../img/arrow-left.png") no-repeat
+        width: 44px
+        height: 44px
+        position: absolute
+        left: 30px
+        top: 45%
+        span
+          opacity: 0
+      .owl-next
+        background: url("../img/arrow-right.png") no-repeat
+        width: 44px
+        height: 44px
+        position: absolute
+        right: 30px
+        top: 45%
+        span
+          opacity: 0
+  &.bg-5
+    background: url("../img/background/bg.jpg") center center no-repeat
+    height: 800px
+    .heading
+      h2
+        text-align: center
+        margin: 0 0 50px 0
+    .item
+      a
+        position: relative
+        display: flex;
+        justify-content: flex-end
+        .img
+          position: absolute
+          left: 25px
+          top: 120px
+          &::before
+            content: ""
+            width: 181px
+            height: 158px
+            border: 3px solid #FFFFFF
+            position: absolute
+            display: block
+            left: -25px
+            top: 20px
+            z-index: 1
+          img
+            position: relative
+            z-index: 2
+        .text
+          width: 380px
+          background-color: #fff
+          padding: 50px
+          border-radius: 0px 20px 20px 0px
+          height: 430px
+          position: relative
+          h4
+            font-family: Prata
+            font-size: 20px
+            line-height: 29px
+            color: #38C2DC
+            text-transform: uppercase
+            margin: 0 0 10px 0
+          p
+            font-family: 'Nunito-ExtraLight'
+            line-height: 28px
+            font-size: 16px
+            color: #464646
+          span
+            position: absolute
+            bottom: 50px
+            right: 50px
+            font-family: 'Charmonman'
+            color: #000
+            font-size: 16px
+    .owl-dots
+      text-align: center
+      margin: 50px 0 0 0
+      .owl-dot
+          display: inline-block
+          margin: 0 10px 0px 0
+          span
+              width: 20px
+              height: 3px
+              background-color: #979797
+              display: block
+          &.active
+              span
+                  background-color: #EC5598
+  &.bg-6
   .heading
     width: 100%
     h2
