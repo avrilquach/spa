@@ -64,6 +64,95 @@ a.button {
       color: #fff;
       font-size: 16px; }
 
+#footer {
+  border-top: 6px solid #38C2DC;
+  background-color: #3B3B3B;
+  padding: 50px 0; }
+  #footer .item h3 {
+    background: url("../img/Frame.png") left center no-repeat;
+    padding-left: 40px;
+    margin: 20px 00 10px 0;
+    font-family: Prata;
+    font-size: 20px;
+    line-height: 27px;
+    color: #38C2DC;
+    text-transform: uppercase;
+    position: relative; }
+    #footer .item h3::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background: #FFFFFF;
+      opacity: 0.3;
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -10px; }
+  #footer .item .content {
+    margin: 20px 0 0 0; }
+    #footer .item .content:nth-child(2) {
+      margin: 40px 0 0 0; }
+    #footer .item .content span {
+      font-family: 'Nunito-ExtraLight';
+      font-size: 16px;
+      line-height: 26px;
+      color: #38C2DC;
+      display: block; }
+    #footer .item .content a {
+      font-family: 'Nunito-ExtraLight';
+      font-size: 16px;
+      line-height: 26px;
+      color: #DADADA; }
+  #footer .item .content2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 5px 0 0 0; }
+    #footer .item .content2 span {
+      font-family: 'Nunito-ExtraLight';
+      font-size: 16px;
+      line-height: 26px;
+      color: #DBDADA;
+      margin: 5px 0 0 0; }
+  #footer .item ul {
+    margin: 40px 0 0 0;
+    padding: 0; }
+    #footer .item ul li {
+      list-style: none; }
+      #footer .item ul li a {
+        font-family: 'Nunito-ExtraLight';
+        font-size: 16px;
+        line-height: 35px;
+        color: #DADADA; }
+  #footer .item:nth-child(1) img {
+    margin: 0 0 20px 0; }
+  #footer .item:nth-child(1) p {
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 26px;
+    color: #DBDADA;
+    margin: 0 0 20px 0; }
+  #footer .item:nth-child(3) p {
+    font-family: 'Nunito-ExtraLight';
+    font-size: 16px;
+    line-height: 35px;
+    color: #DADADA; }
+
+#copyright {
+  background-color: #2D2D2D;
+  padding: 20px 0; }
+  #copyright p {
+    font-family: 'Nunito-ExtraLight';
+    font-size: 14px;
+    line-height: 26px;
+    color: #DADADA;
+    margin: 00; }
+  #copyright img {
+    float: right; }
+
 .slider .item {
   height: 707px;
   position: relative;
@@ -277,6 +366,48 @@ a.button {
           display: block; }
         .section.bg-5 .owl-dots .owl-dot.active span {
           background-color: #EC5598; }
+  .section.bg-6 .heading h2 {
+    text-align: center;
+    margin: 0 0 50px 0; }
+  .section.bg-6 .item img {
+    width: 100%;
+    margin: 0 0 20px 00; }
+  .section.bg-6 .item .text {
+    text-align: center; }
+    .section.bg-6 .item .text h3 {
+      font-family: Nunito;
+      font-size: 16px;
+      line-height: 22px;
+      color: #9F9F9F;
+      margin: 0 0 10px 0; }
+    .section.bg-6 .item .text h4 {
+      font-family: Nunito;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000;
+      margin: 0 0 10px 0; }
+    .section.bg-6 .item .text span {
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+      color: #38C2DC; }
+  .section.bg-7 {
+    background-color: #F6F6F6; }
+    .section.bg-7 .bg-map {
+      background-color: #fff;
+      padding: 10px;
+      width: 100%; }
+    .section.bg-7 #map {
+      height: 485px;
+      width: 100%; }
+    .section.bg-7 .content_map {
+      width: 313px;
+      height: 120px;
+      background-color: #fff; }
+      .section.bg-7 .content_map h3 {
+        font-family: 'Gotham-Light';
+        font-size: 16px;
+        line-height: 26px; }
   .section .heading {
     width: 100%; }
     .section .heading h2 {
