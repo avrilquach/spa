@@ -405,9 +405,18 @@ a.button {
       height: 120px;
       background-color: #fff; }
       .section.bg-7 .content_map h3 {
-        font-family: 'Gotham-Light';
+        font-family: 'Nunito-ExtraLight';
         font-size: 16px;
-        line-height: 26px; }
+        line-height: 26px;
+        text-transform: uppercase;
+        margin: 0 0 10px 0; }
+      .section.bg-7 .content_map a {
+        font-family: 'Nunito-ExtraLight';
+        font-size: 18px;
+        line-height: 22px;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+        color: #37677E; }
   .section .heading {
     width: 100%; }
     .section .heading h2 {
