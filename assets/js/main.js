@@ -68,6 +68,6 @@ $( document ).ready(function() {
         infowindow.open(map, marker);
       });
 		});
-		s.src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCQQ_JBNIzJv_au-RLszU12TYMmNN36LZM';
+		s.src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCWaD7ncidnSTPFdFssKuSK7uSJQrPPINo';
 	});
 }());
