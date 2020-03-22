@@ -34,6 +34,10 @@ a.button {
   color: #fff;
   line-height: 60px; }
 
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
 #header {
   background-color: #38C2DC;
   padding: 12px 0; }
@@ -54,15 +58,13 @@ a.button {
       right: -7px;
       top: 0;
       line-height: 17px; }
-  #header #header-rg .language {
-    margin: 0 15px 0 0; }
-    #header #header-rg .language img {
-      margin: 0 10px 0 0; }
-    #header #header-rg .language span {
-      background: url("../img/arrow.png") right center no-repeat;
-      padding: 0 10px 0 0;
-      color: #fff;
-      font-size: 16px; }
+  #header #header-rg .language img {
+    margin: 0 10px 0 0; }
+  #header #header-rg .language span {
+    background: url("../img/arrow.png") right center no-repeat;
+    padding: 0 10px 0 0;
+    color: #fff;
+    font-size: 16px; }
 
 #footer {
   border-top: 6px solid #38C2DC;
@@ -130,7 +132,7 @@ a.button {
   #footer .item:nth-child(1) img {
     margin: 0 0 20px 0; }
   #footer .item:nth-child(1) p {
-    font-family: Nunito;
+    font-family: 'Nunito-ExtraLight';
     font-size: 16px;
     line-height: 26px;
     color: #DBDADA;
@@ -200,8 +202,7 @@ a.button {
   padding: 100px 0;
   background-size: cover !important; }
   .section.bg-1 {
-    background: url("../img/background/bg1.png") center center no-repeat;
-    height: 1011px; }
+    background: url("../img/background/bg1.png") center center no-repeat; }
     .section.bg-1 h2, .section.bg-1 p {
       text-align: center; }
     .section.bg-1 p {
@@ -230,8 +231,7 @@ a.button {
           padding: 25px 0;
           text-transform: uppercase; }
   .section.bg-2 {
-    background: url("../img/background/bg_xanh.png") center center no-repeat;
-    height: 838px; }
+    background: url("../img/background/bg_xanh.png") center center no-repeat; }
     .section.bg-2 .bg {
       background: url("../img/spa2/aa 1.png") center center no-repeat;
       height: 643px; }
@@ -249,8 +249,7 @@ a.button {
       text-align: center;
       font-size: 25px; }
   .section.bg-3 {
-    background: url("../img/background/bg_grey_dichvu.png") center center no-repeat;
-    height: 930px; }
+    background: url("../img/background/bg_grey_dichvu.png") center center no-repeat; }
     .section.bg-3 .left {
       padding: 0 30px 0 0; }
     .section.bg-3 .heading h2 {
@@ -297,8 +296,7 @@ a.button {
     .section.bg-4 .owl-nav .owl-next span {
       opacity: 0; }
   .section.bg-5 {
-    background: url("../img/background/bg.jpg") center center no-repeat;
-    height: 800px; }
+    background: url("../img/background/bg.jpg") center center no-repeat; }
     .section.bg-5 .heading h2 {
       text-align: center;
       margin: 0 0 50px 0; }
