@@ -13,6 +13,16 @@
   .section.bg-5 .item a .text {
     width: calc(100% - 150px); }
   .section.bg-6 .col-lg-6:nth-child(1), .section.bg-6 .col-lg-6:nth-child(2) {
+    margin: 0 0 30px 0; }
+  .section.bg-8 h2::before {
+    left: 0;
+    top: -20px; }
+  .section.bg-8 h2::after {
+    right: 0;
+    bottom: -20px; }
+  .section.bg-9 .bg-2 {
+    padding: 30px 0; }
+  .introduce_ct .item:nth-child(1) {
     margin: 0 0 30px 0; } }
 
 @media (max-width: 767px) {
