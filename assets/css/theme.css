@@ -48,11 +48,11 @@ a.button {
   padding: 12px 0;
 }
 #header #header-rg .search {
-  margin: 0 20px 0 0;
+  margin: 0 30px 0 0;
 }
 #header #header-rg .cart {
   position: relative;
-  margin: 0 25px 0 0;
+  margin: 0 35px 0 0;
 }
 #header #header-rg .cart span {
   position: absolute;
@@ -180,6 +180,10 @@ a.button {
   float: right;
 }
 
+.breadcrumb {
+  background: url;
+}
+
 .slider .item {
   height: 707px;
   position: relative;
@@ -283,6 +287,7 @@ a.button {
 .section.bg-2 .item {
   background-color: #fff;
   padding: 50px;
+  border-radius: 0px 0px 20px 0px;
 }
 .section.bg-2 .heading p {
   font-size: 16px;
@@ -469,7 +474,7 @@ a.button {
   color: #38C2DC;
 }
 .section.bg-7 {
-  background-color: #F6F6F6;
+  background: url("../img/background/bg-map.jpg") center center no-repeat;
 }
 .section.bg-7 .bg-map {
   background-color: #fff;

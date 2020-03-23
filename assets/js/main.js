@@ -39,7 +39,7 @@ $( document ).ready(function() {
             }
         }
     })
-   
+    AOS.init();
 });
 (function () {
      // Google Map
