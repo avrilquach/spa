@@ -194,6 +194,10 @@ a.button {
   background: url("../img/khoahoc/bg.png") center center no-repeat;
   height: 388px;
 }
+.breadcrumb.dichvu {
+  background: url("../img/dichvu/bg.png") center center no-repeat;
+  height: 388px;
+}
 .breadcrumb h1 {
   text-align: center;
   width: 100%;
@@ -685,6 +689,9 @@ a.button {
   padding: 50px 0;
 }
 
+.khoahoc_ct {
+  padding: 0 0 30px 0;
+}
 .khoahoc_ct .item {
   margin: 30px 0 0 0;
   display: block;

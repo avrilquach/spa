@@ -1,0 +1,36 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .breadcrumb.dichvu.align-items-center(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    h1 
+                        span DỊCH VỤ TRỊ LIỆU
+        .dichvu_ct(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    .col-xl-4
+                        ul.nav.nav-tabs
+                            li.nav-item
+                                a.nav-link.active(data-toggle='tab', href='#dichvu1') Dịch vụ đặc biệt
+                            li.nav-item
+                                a.nav-link(data-toggle='tab', href='#dichvu2') Menu 1
+                            li.nav-item
+                                a.nav-link(data-toggle='tab', href='#dichvu3') Menu 2
+                    .col-xl-8
+                        .tab-content
+                            #dichvu1.tab-pane.container.active ...
+                                .row
+                                    .col-xl-6
+                                        a(href="#").item
+                                            img(src="assets/img/khoahoc/Rectangle 239.png", alt="")
+                                            h2 Khóa massage trị liệu 3 trong 1
+                                    .col-xl-6
+                            #dichvu2.tab-pane.container.fade ...
+                            #dichvu3.tab-pane.container.fade ...
+
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade
