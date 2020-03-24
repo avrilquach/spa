@@ -90,6 +90,17 @@
   .section.bg-6 .col-lg-6:last-child {
     margin: 0;
   }
+  .section.bg-9 .bg-2 .text {
+    padding: 0 15px;
+  }
+
+  .breadcrumb h1 span:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .introduce_ct h2 {
+    font-size: 30px;
+  }
 
   #copyright p {
     text-align: center;
