@@ -1,0 +1,61 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .breadcrumb.products.align-items-center(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    h1 
+                        span THẢO DƯỢC CHO SỨC KHOẺ
+        .sanpham_ct(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row.justify-content-end
+                    .filter 
+                        select#listproducts
+                            option(value='') Danh mục sản phẩm
+                            option(value='Danh mục sản phẩm') Danh mục sản phẩm
+                        select#shortby
+                            option(value='') Short by
+                            option(value='Short by') Short by
+                .row
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 196.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 198.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 200.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 204.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 205.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                    .col-xl-4.col-md-6
+                        a(href="#").item
+                            img(src="assets/img/sanpham/Rectangle 206.png", alt="")
+                            .text
+                                h2 Bột Dinh Dưỡng Ashitaba Percent 36 Energy Booster
+                                span 1,280,000₫
+                           
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade

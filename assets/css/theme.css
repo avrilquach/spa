@@ -169,6 +169,9 @@ a.button {
   .breadcrumb.dichvu {
     background: url("../img/dichvu/bg.png") center center no-repeat;
     height: 388px; }
+  .breadcrumb.products {
+    background: url("../img/sanpham/bg.png") center center no-repeat;
+    height: 388px; }
   .breadcrumb h1 {
     text-align: center;
     width: 100%; }
@@ -665,6 +668,43 @@ a.button {
             margin-top: -5px; }
   .dichvu_ct .bg_left {
     background-color: #fff; }
+
+.sanpham_ct {
+  padding: 50px 0;
+  background-color: #f5f5f5; }
+  .sanpham_ct .filter {
+    margin: 0 0 50px 0; }
+    .sanpham_ct .filter select {
+      font-family: Nunito;
+      font-size: 25px;
+      color: #636363;
+      border: none;
+      background: transparent;
+      margin: 30px 0 0 0; }
+  .sanpham_ct .item {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 20px 0px;
+    display: block;
+    margin: 0 0 30px 0; }
+    .sanpham_ct .item img {
+      width: 100%; }
+    .sanpham_ct .item .text {
+      padding: 30px; }
+      .sanpham_ct .item .text h2 {
+        font-family: Nunito;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #636363; }
+      .sanpham_ct .item .text span {
+        font-family: Nunito;
+        font-size: 25px;
+        line-height: 34px;
+        color: #38C2DC;
+        text-align: center;
+        display: block; }
 
 .mobile {
   display: none; }
