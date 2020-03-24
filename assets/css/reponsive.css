@@ -111,4 +111,12 @@
     display: block;
     max-width: 100%;
   }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
 }

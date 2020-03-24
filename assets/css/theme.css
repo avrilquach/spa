@@ -708,3 +708,83 @@ a.button {
   text-transform: uppercase;
   color: #38C2DC;
 }
+
+.dichvu_ct .nav {
+  border-bottom: 1px solid #D7D7D7;
+  padding: 30px 0;
+}
+.dichvu_ct .nav li {
+  width: 100%;
+}
+.dichvu_ct .nav li a {
+  display: block;
+  font-family: Prata;
+  font-size: 30px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #38C2DC;
+  width: 100%;
+  background: url("../img/dichvu/Polygon 10.png") right 30px no-repeat;
+  border: none;
+}
+.dichvu_ct .nav li a.active, .dichvu_ct .nav li a:hover {
+  border: none;
+  color: #38C2DC;
+}
+.dichvu_ct .tab-content .tab-pane {
+  padding: 0;
+}
+.dichvu_ct .tab-content .item {
+  margin: 30px 0 0 0;
+  display: block;
+}
+.dichvu_ct .tab-content .item img {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+.dichvu_ct .tab-content .item h2 {
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #38C2DC;
+}
+.dichvu_ct .newslatest {
+  padding: 50px 0;
+}
+.dichvu_ct .newslatest h4 {
+  font-family: Prata;
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #38C2DC;
+}
+.dichvu_ct .newslatest ul {
+  margin: 0;
+  padding: 0;
+}
+.dichvu_ct .newslatest ul li {
+  list-style: none;
+}
+.dichvu_ct .newslatest ul li a {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+.dichvu_ct .newslatest ul li a img {
+  margin: 0 20px 0 0;
+  width: 111px;
+  height: 103px;
+}
+.dichvu_ct .newslatest ul li a p {
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: -5px;
+}
+
+.mobile {
+  display: none;
+}
