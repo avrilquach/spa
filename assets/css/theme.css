@@ -595,73 +595,76 @@ a.button {
       text-transform: uppercase;
       color: #38C2DC; }
 
-.dichvu_ct .nav {
-  border-bottom: 1px solid #D7D7D7;
-  padding: 30px 0; }
-  .dichvu_ct .nav li {
-    width: 100%; }
-    .dichvu_ct .nav li a {
-      display: block;
-      font-family: Prata;
-      font-size: 30px;
-      line-height: 66px;
+.dichvu_ct {
+  background-color: #f5f5f5; }
+  .dichvu_ct .nav {
+    border-bottom: 1px solid #D7D7D7;
+    padding: 30px 0; }
+    .dichvu_ct .nav li {
+      width: 100%; }
+      .dichvu_ct .nav li a {
+        display: block;
+        font-family: Prata;
+        font-size: 30px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: #38C2DC;
+        width: 100%;
+        background: url("../img/dichvu/Polygon 10.png") right 30px no-repeat;
+        border: none; }
+        .dichvu_ct .nav li a.active, .dichvu_ct .nav li a:hover {
+          border: none;
+          color: #38C2DC; }
+  .dichvu_ct .tab-content .tab-pane {
+    padding: 0; }
+  .dichvu_ct .tab-content .item {
+    margin: 30px 0 0 0;
+    display: block;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 20px 0px; }
+    .dichvu_ct .tab-content .item img {
+      width: 100%;
+      margin: 0 0 20px 0; }
+    .dichvu_ct .tab-content .item h2 {
+      font-family: Nunito;
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
       text-transform: uppercase;
       color: #38C2DC;
-      width: 100%;
-      background: url("../img/dichvu/Polygon 10.png") right 30px no-repeat;
-      border: none; }
-      .dichvu_ct .nav li a.active, .dichvu_ct .nav li a:hover {
-        border: none;
-        color: #38C2DC; }
-
-.dichvu_ct .tab-content .tab-pane {
-  padding: 0; }
-
-.dichvu_ct .tab-content .item {
-  margin: 30px 0 0 0;
-  display: block; }
-  .dichvu_ct .tab-content .item img {
-    width: 100%;
-    margin: 0 0 20px 0; }
-  .dichvu_ct .tab-content .item h2 {
-    font-family: Nunito;
-    font-size: 20px;
-    line-height: 27px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #38C2DC; }
-
-.dichvu_ct .newslatest {
-  padding: 50px 0; }
-  .dichvu_ct .newslatest h4 {
-    font-family: Prata;
-    font-size: 30px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #38C2DC; }
-  .dichvu_ct .newslatest ul {
-    margin: 0;
-    padding: 0; }
-    .dichvu_ct .newslatest ul li {
-      list-style: none; }
-      .dichvu_ct .newslatest ul li a {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        margin: 0 0 30px 0; }
-        .dichvu_ct .newslatest ul li a img {
-          margin: 0 20px 0 0;
-          width: 111px;
-          height: 103px; }
-        .dichvu_ct .newslatest ul li a p {
-          font-family: Nunito;
-          font-size: 20px;
-          line-height: 30px;
-          color: #000000;
-          margin-top: -5px; }
+      padding: 30px; }
+  .dichvu_ct .newslatest {
+    padding: 50px 0; }
+    .dichvu_ct .newslatest h4 {
+      font-family: Prata;
+      font-size: 30px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #38C2DC; }
+    .dichvu_ct .newslatest ul {
+      margin: 0;
+      padding: 0; }
+      .dichvu_ct .newslatest ul li {
+        list-style: none; }
+        .dichvu_ct .newslatest ul li a {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin: 0 0 30px 0; }
+          .dichvu_ct .newslatest ul li a img {
+            margin: 0 20px 0 0;
+            width: 111px;
+            height: 103px; }
+          .dichvu_ct .newslatest ul li a p {
+            font-family: Nunito;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+            margin-top: -5px; }
+  .dichvu_ct .bg_left {
+    background-color: #fff; }
 
 .mobile {
   display: none; }
