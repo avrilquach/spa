@@ -1,0 +1,35 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .breadcrumb.contact.align-items-center(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    h1 
+                        span Liên hệ
+        .contact_ct
+          .container
+            .row
+              .head
+                img(src="assets/img/contact/logo.png", alt="")
+                h2 GIẢI ĐÁP THẮC MẮC
+            form.row
+              .col-xl-6.form-group
+                input(type="text" placeholder="Họ và tên (*)").form-input
+              .col-xl-6.form-group
+                input(type="phone" placeholder="Điện thoại (*)").form-input
+              .col-xl-6.form-group
+                input(type="email" placeholder="Email (*)").form-input
+              .col-xl-6.form-group
+                input(type="date" placeholder="Chọn ngày giờ (*)").form-input
+              .col-xl-6.form-group
+                input(type="number" placeholder="Số lương người (*)").form-input
+              .col-xl-6.form-group
+                input(type="text" placeholder="Chọn dịch vụ (*)").form-input
+              .col-xl-12
+                input(type='submit' value='Gửi').button
+        include inc/section-9.jade
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade
