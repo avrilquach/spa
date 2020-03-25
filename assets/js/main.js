@@ -40,6 +40,20 @@ $(document).ready(function () {
         }
     })
     AOS.init();
+    $("#menu .icon").click(function () {
+        $(this).toggleClass("active");
+        if($('#openmenu').hasClass('active'))
+        {
+            $('#openmenu').removeClass('active');
+        }
+        else
+        {
+            $('#openmenu').addClass('active');
+        }
+    });
+    $("#openmenu .open a.head").click(function () {
+        $(this).parent().toggleClass("active");
+    });
 });
 (function () {
     // Google Map

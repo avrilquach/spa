@@ -36,6 +36,61 @@ a.button
 #header
     background-color: #38C2DC
     padding: 12px 0
+    position: relative
+    .icon
+      background: url("../img/i-menu.png") no-repeat
+      width: 32px 
+      height: 22px
+      &.active
+        background: url("../img/close.png") no-repeat
+        height: 32px
+        width: 32px
+    #openmenu
+      position: absolute
+      background-color: #fff
+      z-index: 10
+      width: 100%
+      top: 68px
+      display: none
+      &.active
+        display: block
+      > ul
+          margin: 0
+          padding: 30px 0
+          text-align: center
+          li.top
+            list-style: none
+            padding: 10px 0
+            & > a
+                  font-family: Nunito
+                  font-size: 16px
+                  line-height: 22px
+                  text-transform: uppercase
+                  color: #262626
+            ul.sub
+              display: none
+              margin: 10px 0 0 0
+              padding: 0
+              li
+                padding: 10px 0
+                list-style: none
+                a
+                  font-family: Nunito
+                  font-size: 16px
+                  line-height: 22px
+                  text-align: center
+                  color: #262626
+            &.open
+              a.head
+                background: url("../img/Polygon 25.png") right center no-repeat
+                padding-right: 15px
+              &.active
+                a.head
+                  background: url("../img/Polygon 24.png") right 25px center #38C2DC no-repeat
+                  padding: 10px 40px
+                  color: #fff
+                ul.sub
+                  display: block
     #header-rg
         .search
             margin: 0 30px 0 0
