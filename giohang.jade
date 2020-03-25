@@ -1,0 +1,62 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .breadcrumb.giohang.align-items-center(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    h1 
+                        span giỏ hàng
+        .giohang_ct(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    .col-xl-8
+                      .cart
+                        .cart-item 
+                            .img
+                              img(src="assets/img/giohang/Rectangle 245.png", alt="")
+                            .text 
+                              h2 Túi chườm mắt thảo dược Đông Y – AN’s Spa
+                              p Giao hàng nhanh
+                              a(href='#') Xóa
+                            .price
+                              span.price-new 420,000₫
+                              sapn.price-old 650.000đ  | 
+                                span -20%
+                            .number
+                              input(type='number' value='1')
+                        .cart-item 
+                            .img
+                              img(src="assets/img/giohang/Rectangle 246.png", alt="")
+                            .text 
+                              h2 SỮA RỬA MẶT SANSHO | Bubble Cleanser
+                              p Giao hàng nhanh
+                              a(href='#') Xóa
+                            .price
+                              span.price-new 950,000₫
+                              sapn.price-old 650.000đ  | 
+                                span -20%
+                            .number
+                              input(type='number' value='1')
+                        .cart-item 
+                            .img
+                              img(src="assets/img/giohang/Rectangle 249.png", alt="")
+                            .text 
+                              h2 TINH CHẤT TRÂN CHÂU SANSHO TÁI TẠO DA
+                              p Giao hàng nhanh
+                              a(href='#') Xóa
+                            .price
+                              span.price-new 2.230.000₫
+                              sapn.price-old 650.000đ  | 
+                                span -20%
+                            .number
+                              input(type='number' value='1')
+                        span.line
+                        a.next(href='#') tiếp tục mua hàng 
+                    .col-xl-4
+                      .payment
+                     
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade
