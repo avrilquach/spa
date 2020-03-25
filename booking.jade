@@ -7,8 +7,45 @@ html
             .container
                 .row
                     h1 
-                        span BOOK YOUR APPOINTMENT WITH an's spa
-                        span 0909755877
+                        span BOOK YOUR APPOINTMENT 
+                            br
+                            | WITH 
+                            strong(style="color: #38C2DC") an's spa
+                        span 
+                            img(src="assets/img/booking/Vector.png", alt="")
+                            | 0909755877
+        .booking_ct
+          .container
+            .booking_inn
+                .row
+                    .head
+                        h2 thông tin booking
+                form.row.form-general
+                    .col-xl-6.form-group
+                        input(type="text" placeholder="Họ và tên (*)").form-input
+                        span.err Mục này là bắt buộc.
+                    .col-xl-6.form-group
+                        input(type="phone" placeholder="Điện thoại (*)").form-input
+                    .col-xl-6.form-group
+                        input(type="email" placeholder="Email (*)").form-input
+                    .col-xl-6.form-group
+                        input(type="number" placeholder="Số lương người (*)").form-input
+                    .col-xl-6.form-group.date
+                        input(type="date" placeholder="Chọn ngày giờ (*)").form-input
+                        span
+                           img(src="assets/img/booking/icon.png", alt="") 
+                    .col-xl-6.form-group
+                        input(type="text" placeholder="Chi nhánh (*)").form-input
+                    .col-xl-6.form-group
+                        .form-input
+                            select
+                                option(value='') Danh mục dịch vụ (*)
+                    .col-xl-6.form-group
+                        .form-input
+                            select
+                                option(value='') Dịch vụ (*)
+                    .col-xl-12
+                        input(type='submit' value='BOOK APPOINTMENT').button
         include inc/section-7.jade
         include inc/footer.jade
         include inc/script.jade

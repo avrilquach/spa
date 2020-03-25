@@ -17,7 +17,7 @@
   font-weight: normal;
   font-style: normal; }
 
-button, select {
+button, select, input {
   outline: none !important; }
 
 a, a:hover {
@@ -251,6 +251,11 @@ a.button {
   .breadcrumb.contact {
     background: url("../img/contact/bg.png") center center no-repeat;
     height: 388px; }
+  .breadcrumb.booking {
+    background: url("../img/booking/bg.png") center center no-repeat;
+    height: 388px; }
+    .breadcrumb.booking h1 span:nth-child(2) img {
+      margin: 0 10px 0 0; }
   .breadcrumb h1 {
     text-align: center;
     width: 100%; }
@@ -812,15 +817,6 @@ a.button {
         right: 0;
         margin: 0 auto;
         top: -30px; }
-  .contact_ct .form-group {
-    margin: 0 0 50px 0; }
-  .contact_ct .form-input {
-    height: 60px;
-    background: #FAFAFA;
-    border: 1px solid #B9B9B9;
-    border-radius: 30px;
-    width: 100%;
-    padding: 0 20px; }
   .contact_ct .button {
     border: none;
     width: 200px;
@@ -829,6 +825,72 @@ a.button {
     text-transform: uppercase;
     margin: 0 auto;
     display: block; }
+
+.booking_ct {
+  background: url("../img/booking/bg_booking.jpg") top center no-repeat;
+  padding: 50px 0;
+  background-size: cover; }
+  .booking_ct .booking_inn {
+    background-color: #fff;
+    margin: 0 100px;
+    padding: 50px; }
+    .booking_ct .booking_inn .button {
+      border: none;
+      width: 400px;
+      border-radius: 30px;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 0 auto;
+      display: block; }
+    .booking_ct .booking_inn .head {
+      width: 100%;
+      margin: 0 0 30px 0; }
+      .booking_ct .booking_inn .head h2 {
+        font-family: Prata;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #38C2DC;
+        position: relative;
+        margin: 0 auto;
+        background: url("../img/booking/bg_head.png") center center no-repeat;
+        width: 590px;
+        line-height: 140px; }
+
+.form-general .form-group {
+  margin: 0 0 20px 0;
+  height: 84px; }
+  .form-general .form-group.date {
+    position: relative; }
+    .form-general .form-group.date span {
+      position: absolute;
+      width: 90px;
+      line-height: 60px;
+      background: #38C2DC;
+      position: absolute;
+      right: 15px;
+      border-radius: 0 30px 30px 0;
+      text-align: center; }
+
+.form-general .form-input {
+  height: 60px;
+  background: #fff;
+  border: 1px solid #B9B9B9;
+  border-radius: 30px;
+  width: 100%;
+  padding: 0 20px; }
+  .form-general .form-input select {
+    width: 100%;
+    border: 0px;
+    height: 58px;
+    background: transparent; }
+
+.form-general span.err {
+  margin: 10px 0 0 0;
+  font-family: Nunito;
+  font-size: 14px;
+  color: #FF0000;
+  display: block; }
 
 .mobile {
   display: none; }
