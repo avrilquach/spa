@@ -1,0 +1,60 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .breadcrumb.giohang.align-items-center(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                    h1 
+                        span thanh toán 
+        .thanhtoan_ct(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                form.row.form-general
+                    .col-xl-8
+                      .head
+                          h2 Thông tin giao hàng
+                      .row
+                        .col-xl-6.form-group
+                            input(type="text" placeholder="First name (*)").form-input
+                            span.err Mục này là bắt buộc.
+                        .col-xl-6.form-group
+                            input(type="text" placeholder="Last name (*)").form-input
+                        .col-xl-6.form-group
+                            input(type="email" placeholder="Email (*)").form-input
+                        .col-xl-6.form-group
+                            input(type="phone" placeholder="Phone (*)").form-input
+                        .col-xl-6.form-group
+                            input(type="text" placeholder="Tỉnh / Thành Phố (*)").form-input
+                        .col-xl-6.form-group
+                          input(type="text" placeholder="Quận Huyện (*)").form-input
+                        .col-xl-6.form-group
+                          input(type="text" placeholder="Phường / xã (*)").form-input
+                        .col-xl-6.form-group
+                          input(type="text" placeholder=" Địa chỉ (*)").form-input
+                        .col-xl-12.form-group
+                          input(type="text" placeholder="Ghi chú thêm").form-input
+                        
+                    .col-xl-4
+                      .don-hang
+                        .head
+                          h2 đơn hàng
+                          a(href='#') sửa
+                        .don-hang-item
+                          span.text 01 x 
+                            span Túi chườm mắt thảo dược Đông Y – AN’s Spa
+                          span.price 420.000đ
+                      .payment
+                        .tam-tinh
+                          span Tạm tính
+                          span 12.600.000đ
+                        .thanh-tien
+                          span.left Thành tiền
+                          span.right 12.600.000đ
+                            span (Đã bao gồm VAT nếu có)
+                        .next-step
+                          a(href="#") Đặt hàng
+                        
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade
