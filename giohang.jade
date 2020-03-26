@@ -56,7 +56,20 @@ html
                         a.next(href='#') tiếp tục mua hàng 
                     .col-xl-4
                       .payment
-                     
+                        .tam-tinh
+                          span Tạm tính
+                          span 12.600.000đ
+                        .thanh-tien
+                          span.left Thành tiền
+                          span.right 12.600.000đ
+                            span (Đã bao gồm VAT nếu có)
+                        .next-step
+                          a(href="#") tiến hành Đặt hàng
+                        .ma-giam-gia
+                          span Mã giảm giá / Quà tặng
+                          input(type='text' placeholder='Nhập ở đây...').text
+                          input(type='submit' value='Đồng ý').submit
+
         include inc/section-7.jade
         include inc/footer.jade
         include inc/script.jade

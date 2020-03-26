@@ -40,7 +40,23 @@
         margin: 0 0 30px 0
   .booking_ct 
     .booking_inn
-      margin: 0 15px
+      margin: 0
+  .giohang_ct
+    .cart 
+      .cart-item
+        display: inline-block
+        .img, .text, .price, .number
+          width: 50%
+          float: left
+        .text, .price, .number
+          padding: 0 0 0 20px
+        .text
+          p
+            margin: 0 0 10px 0
+          a
+            position: unset
+        .number
+          margin: 10px 0 0 0 
 @media(max-width: 767px)
   #header
     #logo
@@ -118,6 +134,21 @@
       margin: 20px auto 0
       display: block
       max-width: 100%
+  .giohang_ct
+    .cart 
+      padding: 0 15px 15px 15px
+      .cart-item
+        .img
+          margin: 0 0 20px 0
+        .img, .text, .price, .number
+          width: 100%
+          padding: 0
+      a.next
+        width: 100%
+    .payment
+      .next-step
+        a
+          font-size: 14px
   .mobile
     display: block
   .desktop
@@ -141,3 +172,4 @@
           line-height: 50px
       .button
         width: 100%
+        font-size: 18px
