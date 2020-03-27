@@ -1,4 +1,4 @@
-@media(max-width: 1199px) {
+@media (max-width: 1199px) {
   .section.bg-2 .bg {
     background-size: cover;
   }
@@ -61,7 +61,7 @@
     margin: 10px 0 0 0;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   #header #logo {
     flex: 0 0 40%;
     max-width: 40%;
@@ -183,7 +183,7 @@
     padding: 0;
   }
   .dichvu_ct .bg_right .nav {
-    background-color: white;
+    background-color: #fff;
     margin: 30px 0 0 0;
   }
   .dichvu_ct .bg_right .nav li a {
@@ -201,5 +201,9 @@
   .booking_ct .booking_inn .button {
     width: 100%;
     font-size: 18px;
+  }
+
+  .thanhtoan_ct .don-hang {
+    padding: 30px 15px;
   }
 }
