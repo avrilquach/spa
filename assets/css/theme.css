@@ -1331,7 +1331,44 @@ input, select {
   .news_bottom .right .banner {
     margin: 0 0 30px 0; }
   .news_bottom .right .newslatest h4 {
-    background: url("../img/news/Rectangle 207.png") left center no-repeat; }
+    background: url("../img/news/Rectangle 207.png") left center no-repeat;
+    font-family: Nunito;
+    font-size: 25px;
+    line-height: 45px;
+    color: #FFFFFF;
+    width: 246px;
+    text-align: center; }
+  .news_bottom .right .newslatest ul {
+    margin: 0;
+    padding: 0; }
+    .news_bottom .right .newslatest ul li {
+      list-style: none; }
+      .news_bottom .right .newslatest ul li a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 15px 0; }
+        .news_bottom .right .newslatest ul li a .img {
+          width: 40%; }
+          .news_bottom .right .newslatest ul li a .img img {
+            width: 100%; }
+        .news_bottom .right .newslatest ul li a .text {
+          width: 60%;
+          padding: 0 0 0 15px; }
+          .news_bottom .right .newslatest ul li a .text h2 {
+            font-family: Nunito;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            color: #212121; }
+          .news_bottom .right .newslatest ul li a .text span {
+            font-family: Nunito;
+            font-size: 16px;
+            line-height: 23px;
+            color: #CDCDCD; }
   .news_bottom .left .item {
     display: -webkit-box;
     display: -ms-flexbox;
