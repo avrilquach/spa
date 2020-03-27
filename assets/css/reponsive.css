@@ -40,6 +40,8 @@
     .giohang_ct .cart .cart-item .number {
       margin: 10px 0 0 0; }
   .news_top .left .item {
+    margin: 0 0 30px 0; }
+  .product_detail_ct .left img {
     margin: 0 0 30px 0; } }
 
 @media (max-width: 767px) {
@@ -165,4 +167,7 @@
       margin: 0 0 15px 0; }
     .news_bottom .left .item .text {
       width: 100%;
-      padding: 0; } }
+      padding: 0; }
+  .product_detail_ct .right .order input.submit {
+    width: 100%;
+    margin: 30px 0 0 0; } }

@@ -1402,5 +1402,138 @@ input, select {
         line-height: 23px;
         color: #CDCDCD; }
 
+.product_detail_ct {
+  padding: 30px 0 0 0; }
+  .product_detail_ct .left img {
+    width: 100%; }
+  .product_detail_ct .right .breadcrumb_product {
+    margin: 0 0 20px 0; }
+    .product_detail_ct .right .breadcrumb_product ul {
+      margin: 0;
+      padding: 0; }
+      .product_detail_ct .right .breadcrumb_product ul li {
+        list-style: none; }
+        .product_detail_ct .right .breadcrumb_product ul li a, .product_detail_ct .right .breadcrumb_product ul li span {
+          font-family: Nunito;
+          font-size: 16px;
+          line-height: 22px;
+          color: #9C9C9C; }
+        .product_detail_ct .right .breadcrumb_product ul li a {
+          padding: 0 10px 0 0; }
+        .product_detail_ct .right .breadcrumb_product ul li span {
+          padding: 0 0 0 10px; }
+  .product_detail_ct .right h1 {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #38C2DC;
+    margin: 0 0 20px 0; }
+  .product_detail_ct .right .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0 20px 0; }
+    .product_detail_ct .right .social ul {
+      margin: 0;
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .product_detail_ct .right .social ul li {
+        list-style: none;
+        margin: 0 10px; }
+  .product_detail_ct .right span.price {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #EC5598; }
+  .product_detail_ct .right .category {
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 22px;
+    color: #636363;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px dashed #CCCCCC;
+    border-bottom: 1px dashed #CCCCCC; }
+    .product_detail_ct .right .category p {
+      margin: 0; }
+  .product_detail_ct .right .tags {
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 22px;
+    color: #636363;
+    padding: 10px 0; }
+    .product_detail_ct .right .tags p {
+      margin: 0; }
+  .product_detail_ct .right .order {
+    margin: 20px 0 0 00; }
+    .product_detail_ct .right .order input.number {
+      width: 120px;
+      height: 55px;
+      border: 1px solid #C9C9C9;
+      border-radius: 30px;
+      text-align: right;
+      padding: 0 20px; }
+    .product_detail_ct .right .order input.submit {
+      width: 300px;
+      height: 55px;
+      background: #38C2DC;
+      border-radius: 30px;
+      margin: 0 0 0 20px;
+      border: none;
+      font-family: Nunito;
+      font-weight: bold;
+      font-size: 20px;
+      color: #FFFFFF; }
+  .product_detail_ct .nav {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 0 0 0; }
+    .product_detail_ct .nav .nav-link {
+      font-family: Prata;
+      font-size: 30px;
+      line-height: 41px;
+      text-transform: uppercase;
+      color: #38C2DC; }
+      .product_detail_ct .nav .nav-link:hover, .product_detail_ct .nav .nav-link.active {
+        border: none;
+        border-bottom: 4px solid #38C2DC; }
+  .product_detail_ct .tab-content {
+    padding: 30px 0 0 0; }
+    .product_detail_ct .tab-content #mota h2 {
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #38C2DC; }
+    .product_detail_ct .tab-content #mota h3 {
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: #636363; }
+    .product_detail_ct .tab-content #mota p {
+      font-family: Nunito;
+      font-size: 20px;
+      line-height: 33px;
+      color: #636363; }
+    .product_detail_ct .tab-content #mota .item img {
+      margin: 0 0 20px 0;
+      width: 100%; }
+    .product_detail_ct .tab-content #mota .item p {
+      text-align: center; }
+
 .mobile {
   display: none; }

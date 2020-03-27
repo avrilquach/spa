@@ -1,0 +1,75 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        include inc/menu.jade
+        .product_detail_ct(data-aos="fade-up"  data-aos-duration="2000")
+            .container
+                .row
+                  .col-xl-7.left
+                    img(src="assets/img/Rectangle 210.png", alt="")
+                  .col-xl-5.right
+                    .breadcrumb_product
+                      ul
+                        li
+                          a(href="#") Home
+                            span /
+                          a(href="#") Mỹ phẩm nội địa Nhật
+                    h1 KEM DƯỠNG DA BAN ĐÊM CAO CẤP SANSHO
+                    .social
+                      span Share:
+                      ul
+                          li
+                              a(href="#")
+                                  img(src="assets/img/details/facebook.png", alt="")
+                          li
+                              a(href="#")
+                                  img(src="assets/img/details/instagram.png", alt="")
+                          li
+                              a(href="#")
+                                  img(src="assets/img/details/pinterest.png", alt="")
+                          li
+                              a(href="#")
+                                  img(src="assets/img/details/Twitter.png", alt="")
+                          li
+                              a(href="#")
+                                  img(src="assets/img/details/instagram.png", alt="")
+                    span.price 1.600.000₫
+                    .category
+                      p 
+                        strong Category: 
+                        | Mỹ phẩm nội địa Nhật
+                    .tags
+                      p 
+                        strong Tags: 
+                        | dưỡng da, dưỡng da ban đêm, kem dưỡng ẩm, kem dưỡng cao cấp, kem dưỡng da, kem dưỡng đêm, kem dưỡng nhật bản, kem dưỡng sanhso, night cream, sansho
+                    .order
+                      input(type='number' value="1").number
+                      input(type='submit' value='CHỌN MUA').submit
+                  .col-xl-12   
+                    ul.nav.nav-tabs
+                        li.nav-item
+                            a.nav-link(data-toggle='tab', href='#mota').active Mô tả 
+                        li.nav-item
+                            a.nav-link(data-toggle='tab', href='#danhgia') đánh giá
+                    .tab-content
+                        #mota.tab-pane.container.active
+                            h2 Kem dưỡng da ban đêm ( Luxury Cream ) Sansho là sự lựa chọn tuyệt vời cho chu trình chăm sóc da ban đêm. Với tinh chất phục hồi & trẻ hoá da chuyên sâu vô cùng hiệu quả.
+                            .row.align-items-center
+                              .col-xl-5.item
+                                img(src="assets/img/image 36.png", alt="")
+                                p Kem dưỡng da ban đêm cao cấp
+                              .col-xl-7
+                                h3 VÌ SAO BẠN NÊN DÙNG KEM DƯỠNG DA BAN ĐÊM CAO CẤP SANSHO ?
+                                p Ban đêm là khoảng thời gian lý tưởng trong ngày cho việc chăm sóc da. Vì trong khi ngủ, các dưỡng chất sẽ có nhiều thời gian để thẩm thấu, nuôi dưỡng sâu cho từng tế bào da của bạn. Từ đó mang lại hiệu quả rõ rệt và tối ưu.
+                            h3 Bảng thành phần tinh chất siêu vượt trội của Dòng kem dưỡng ẩm ban đêm cao cấp Sansho:
+                            p Tinh dầu Meadowfoam chiết xuất từ hạt cây Limnanthes Alba ở miền Bắc California. Công dụng của nó là một phát hiện đột phá trong khoa học và mỹ phẩm. Mức Triglyceride chất lượng vượt trội so với các loài dầu thực vật khác. 
+                            p Nhờ đó, thành phần này mang lại tác dụng chống oxy hoá ưu việt hơn. Giúp hình thành rào cản ngăn chặn các độc tố có hại thâm nhập vào da, khoá độ ẩm tự nhiên để chống khô nhăn da, làm mịn da tức thì. 
+                            p Làm da của bạn sẽ được phục hồi và khỏe mạnh từ sâu bên trong bởi Kem dưỡng ẩm ban đêm Luxury Cream của Sansho. 
+                            p CÁCH SỬ DỤNG: Thoa đều khắp vùng mặt vào ban đêm sau bước rửa mặt, nước hoa hồng và tinh chất trân châu.
+                        #danhgia.tab-pane.container.fade
+                            
+        include inc/section-6.jade
+        include inc/section-7.jade
+        include inc/footer.jade
+        include inc/script.jade
