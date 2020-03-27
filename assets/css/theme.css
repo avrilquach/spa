@@ -1340,6 +1340,7 @@ input::placeholder, select::placeholder {
 .thanhtoan_ct .thong-tin-giao-hang {
   background-color: #fff;
   margin: 30px 0 0 0;
+  height: 100%;
 }
 .thanhtoan_ct .thong-tin-giao-hang .head {
   padding: 30px 15px 15px 15px;
