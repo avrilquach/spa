@@ -1672,6 +1672,9 @@ input, select {
       .product_detail_ct .right .social ul li {
         list-style: none;
         margin: 0 10px; }
+        .product_detail_ct .right .social ul li .icon {
+          color: #636363;
+          font-size: 18px; }
   .product_detail_ct .right span.price {
     font-family: Nunito;
     font-weight: 600;
