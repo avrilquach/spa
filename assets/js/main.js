@@ -57,6 +57,12 @@ $(document).ready(function () {
     $('#header-rg .search').click(function(e){
         $('#searchmenu').toggleClass("active");
     })
+    $('.danh_muc_dv').click(function(e){
+        $('.open_tab_dichvu').toggleClass("active");
+    })
+    $('a.nav-link').click(function(e){
+        $('.open_tab_dichvu').toggleClass("active");
+    })
 });
 (function () {
     // Google Map

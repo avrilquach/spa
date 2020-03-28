@@ -762,26 +762,28 @@ input, select {
         .dichvu_ct .nav li a.active, .dichvu_ct .nav li a:hover {
           border: none;
           color: #38C2DC; }
-  .dichvu_ct .tab-content .tab-pane {
-    padding: 0; }
-  .dichvu_ct .tab-content .item {
-    margin: 30px 0 0 0;
-    display: block;
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 0px 20px 0px; }
-    .dichvu_ct .tab-content .item img {
-      width: 100%;
-      margin: 0 0 20px 0; }
-    .dichvu_ct .tab-content .item h2 {
-      font-family: Nunito;
-      font-size: 20px;
-      line-height: 27px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #38C2DC;
-      padding: 30px; }
+  .dichvu_ct .tab-content {
+    margin: 30px 0 0 0; }
+    .dichvu_ct .tab-content .tab-pane {
+      padding: 0; }
+    .dichvu_ct .tab-content .item {
+      margin: 0 0 30px 0;
+      display: block;
+      background: #FFFFFF;
+      -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 0px 0px 20px 0px; }
+      .dichvu_ct .tab-content .item img {
+        width: 100%;
+        margin: 0 0 20px 0; }
+      .dichvu_ct .tab-content .item h2 {
+        font-family: Nunito;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #38C2DC;
+        padding: 30px; }
   .dichvu_ct .newslatest {
     padding: 50px 0; }
     .dichvu_ct .newslatest h4 {
@@ -812,6 +814,26 @@ input, select {
             margin-top: -5px; }
   .dichvu_ct .bg_left {
     background-color: #fff; }
+  .dichvu_ct .danh_muc_dv {
+    display: none; }
+  .dichvu_ct .thong-tin-lien-he {
+    border-top: 2px solid #D7D7D7;
+    padding: 50px 0 0 0; }
+    .dichvu_ct .thong-tin-lien-he h4 {
+      font-family: Prata;
+      font-size: 30px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: #38C2DC;
+      margin: 0 0 10px 0; }
+    .dichvu_ct .thong-tin-lien-he p {
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000; }
+      .dichvu_ct .thong-tin-lien-he p a {
+        color: #000000; }
 
 .sanpham_ct {
   padding: 50px 0 0 0;
