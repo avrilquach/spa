@@ -101,6 +101,10 @@
       margin: 0 0 30px 0; }
       .section.bg-6 .col-lg-6:last-child {
         margin: 0; }
+    .section.bg-8 h2 {
+      padding: 15px; }
+      .section.bg-8 h2::before {
+        top: 0; }
     .section.bg-9 .bg-2 .text {
       padding: 0 15px; }
   .breadcrumb.thanhtoan h1 span:nth-child(1) {
@@ -202,7 +206,7 @@
       padding: 0; }
   .news_top .left .item h2 {
     position: unset;
-    color: #000;
+    color: #fff;
     font-size: 30px;
     line-height: 40px;
     padding: 15px; }

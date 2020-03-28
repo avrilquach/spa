@@ -691,9 +691,17 @@ input, select {
           .section.bg-9 .bg-2 .text ul li {
             list-style: none;
             line-height: 22px;
-            margin: 0 0 20px 0; }
-            .section.bg-9 .bg-2 .text ul li img {
-              margin: 0 20px 0 00; }
+            margin: 0 0 20px 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+            .section.bg-9 .bg-2 .text ul li .icon {
+              margin: 0 20px 0 0;
+              color: #38C2DC;
+              font-size: 15px; }
             .section.bg-9 .bg-2 .text ul li span, .section.bg-9 .bg-2 .text ul li a {
               font-size: 16px;
               color: #000;
@@ -1509,7 +1517,8 @@ input, select {
       font-family: Nunito;
       font-size: 40px;
       line-height: 50px;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      background: rgba(0, 0, 0, 0.5); }
   .news_top .right .item {
     display: -webkit-box;
     display: -ms-flexbox;
