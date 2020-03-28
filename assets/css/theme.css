@@ -59,12 +59,14 @@ input, select {
   position: relative; }
   #header .icon {
     background: url("../img/i-menu.png") no-repeat;
-    width: 32px;
+    width: 32pxF;
     height: 22px; }
     #header .icon.active {
       background: url("../img/close.png") no-repeat;
       height: 32px;
       width: 32px; }
+  #header #logo img {
+    width: 170px; }
   #header #openmenu {
     position: absolute;
     background-color: #fff;
@@ -191,6 +193,8 @@ input, select {
   border-top: 6px solid #38C2DC;
   background-color: #3B3B3B;
   padding: 50px 0; }
+  #footer .logo_footer img {
+    width: 236px; }
   #footer .item h3 {
     background: url("../img/Frame.png") left center no-repeat;
     padding-left: 40px;
@@ -953,7 +957,7 @@ input, select {
 
 .form-general .form-group {
   margin: 0 0 20px 0;
-  height: 84px; }
+  height: 70px; }
   .form-general .form-group.date {
     position: relative; }
     .form-general .form-group.date span {
@@ -967,7 +971,7 @@ input, select {
       text-align: center; }
 
 .form-general .form-input {
-  height: 60px;
+  height: 50px;
   background: #fff;
   border: 1px solid #B9B9B9;
   border-radius: 30px;
@@ -1222,14 +1226,25 @@ input, select {
             line-height: 30px;
             color: #000000; }
       .giohang_ct .cart .cart-item .number {
-        width: 15%; }
+        width: 15%;
+        position: relative; }
         .giohang_ct .cart .cart-item .number input {
-          width: 100%;
+          width: 100% !important;
           height: 55px;
           border: 1px solid #C9C9C9;
           border-radius: 30px;
           text-align: right;
-          padding: 0 20px; }
+          padding: 0 40px 0 20px; }
+        .giohang_ct .cart .cart-item .number .icon {
+          position: absolute;
+          width: 34px;
+          height: 55px;
+          background: #C9C9C9;
+          top: 0;
+          right: 0; }
+          .giohang_ct .cart .cart-item .number .icon .up, .giohang_ct .cart .cart-item .number .icon .down {
+            line-height: 27px;
+            text-align: center; }
   .giohang_ct .payment {
     background-color: #fff;
     padding: 30px;
@@ -1652,14 +1667,16 @@ input, select {
     .product_detail_ct .right .tags p {
       margin: 0; }
   .product_detail_ct .right .order {
-    margin: 20px 0 0 00; }
-    .product_detail_ct .right .order input.number {
+    margin: 20px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .product_detail_ct .right .order input.text {
       width: 120px;
       height: 55px;
       border: 1px solid #C9C9C9;
       border-radius: 30px;
-      text-align: right;
-      padding: 0 20px; }
+      text-align: right; }
     .product_detail_ct .right .order input.submit {
       width: 300px;
       height: 55px;
@@ -1712,6 +1729,22 @@ input, select {
       width: 100%; }
     .product_detail_ct .tab-content #mota .item p {
       text-align: center; }
+
+.number-order {
+  position: relative;
+  width: 120px; }
+  .number-order .icon {
+    position: absolute;
+    width: 34px;
+    height: 55px;
+    background: #C9C9C9;
+    top: 0;
+    right: 0; }
+    .number-order .icon .up, .number-order .icon .down {
+      line-height: 27px;
+      text-align: center; }
+  .number-order input.text {
+    padding: 0 40px 0 20px; }
 
 .mobile {
   display: none; }
