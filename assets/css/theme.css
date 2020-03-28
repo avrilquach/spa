@@ -778,23 +778,32 @@ input, select {
   background-color: #f5f5f5; }
   .dichvu_ct .nav {
     border-bottom: 1px solid #D7D7D7;
-    padding: 30px 0; }
+    padding: 30px 0;
+    margin: 0 -15px; }
     .dichvu_ct .nav li {
       width: 100%; }
       .dichvu_ct .nav li a {
         display: block;
         font-family: Prata;
         font-size: 30px;
-        line-height: 66px;
+        line-height: 60px;
         text-transform: uppercase;
         color: #38C2DC;
         width: 100%;
-        background: url("../img/dichvu/Polygon 10.png") right 30px no-repeat;
         border: none;
-        padding: 9px 15px 9px 0; }
+        padding: 10px 15px;
+        position: relative; }
+        .dichvu_ct .nav li a::after {
+          content: "\e90d";
+          font-family: 'icomoon' !important;
+          position: absolute;
+          right: 15px;
+          font-size: 10px;
+          top: 7px; }
         .dichvu_ct .nav li a.active, .dichvu_ct .nav li a:hover {
           border: none;
-          color: #38C2DC; }
+          color: #38C2DC;
+          background-color: #F7EFEC; }
   .dichvu_ct .tab-content {
     margin: 30px 0 0 0; }
     .dichvu_ct .tab-content .tab-pane {
@@ -1064,6 +1073,9 @@ input, select {
       .details .social ul li {
         list-style: none;
         margin: 0 10px; }
+        .details .social ul li .icon {
+          color: #636363;
+          font-size: 18px; }
   .details .comments h3 {
     font-family: Prata;
     font-size: 30px;
@@ -1141,6 +1153,9 @@ input, select {
         -ms-flex-align: center;
         align-items: center;
         margin: 0 20px 0 0; }
+        .details .comments .comment-item .comment-reply .like .icon-like {
+          color: #C5C5C5;
+          font-size: 12px; }
         .details .comments .comment-item .comment-reply .like span {
           font-family: Nunito;
           font-size: 13px;

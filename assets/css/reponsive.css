@@ -102,6 +102,8 @@
         margin: 0; }
     .section.bg-9 .bg-2 .text {
       padding: 0 15px; }
+  .breadcrumb.thanhtoan h1 span:nth-child(1) {
+    font-size: 30px; }
   .breadcrumb h1 span:nth-child(1) {
     font-size: 30px; }
   .introduce_ct h2 {
