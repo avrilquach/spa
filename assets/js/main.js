@@ -63,6 +63,15 @@ $(document).ready(function () {
     $('a.nav-link').click(function(e){
         $('.open_tab_dichvu').toggleClass("active");
     })
+    //Date TimePicker
+	if($('.datetimepicker').length) {
+		$('.datetimepicker').datetimepicker({
+			dayOfWeekStart : 1,
+			lang:'en',
+			disabledDates:['1986/01/22','1986/01/23','1986/01/19'],
+			startDate:	'2015/01/05'
+		});
+	}
 });
 (function () {
     // Google Map

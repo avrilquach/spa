@@ -358,7 +358,21 @@ input, select
         text-align: center
         text-transform: uppercase
         color: #38C2DC
-        padding: 30px 20px 20px 20px
+        padding: 30px 15px 15px 15px
+        display: block
+  &.thanhtoan
+    background-color: #fff
+
+    h1
+      margin: 0
+
+      span:nth-child(1)
+        font-family: Prata
+        font-size: 50px
+        text-align: center
+        text-transform: uppercase
+        color: #38C2DC
+        padding: 30px 15px 15px 15px
         display: block
 
   h1
@@ -431,7 +445,7 @@ input, select
         background-color: #EC5598
 
 .section
-  padding: 100px 0
+  padding: 70px 0
   background-size: cover !important
 
   &.bg-1
@@ -907,6 +921,7 @@ input, select
         width: 100%
         background: url("../img/dichvu/Polygon 10.png") right 30px no-repeat
         border: none
+        padding: 9px 15px 9px 0
 
         &.active, &:hover
           border: none
@@ -996,8 +1011,7 @@ input, select
       a
         color: #000000  
 .sanpham_ct
-  padding: 50px 0 0 0
-  background-color: #f5f5f5
+  background-color: #fff
 
   .filter
     margin: 0 0 50px 0
@@ -1008,7 +1022,7 @@ input, select
       color: #636363
       border: none
       background: transparent
-      margin: 30px 0 0 0
+      margin: 50px 0 0 0
 
   .item
     background: #FFFFFF
@@ -1713,7 +1727,9 @@ input, select
           line-height: 23px
           color: #CDCDCD
 .product_detail_ct
-  padding: 30px 0 0 0
+  padding: 30px
+  & + .bg-6
+    border-top: 10px solid #f5f5f5
   .left
     img
       width: 100%
@@ -1806,10 +1822,11 @@ input, select
       font-size: 30px
       line-height: 41px
       text-transform: uppercase
-      color: #38C2DC
+      color: #636363
       &:hover, &.active
         border: none
         border-bottom: 4px solid #38C2DC
+        color: #38C2DC
   .tab-content
     padding: 30px 0 0 0
     #mota
