@@ -54,6 +54,9 @@ $(document).ready(function () {
     $("#openmenu .open a.head").click(function () {
         $(this).parent().toggleClass("active");
     });
+    $('#header-rg .search').click(function(e){
+        $('#searchmenu').toggleClass("active");
+    })
 });
 (function () {
     // Google Map

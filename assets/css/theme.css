@@ -132,8 +132,38 @@ input, select {
           margin: 0 15px 0 0; }
           #header #openmenu .chose_language ul li:last-child {
             margin: 0; }
+  #header #searchmenu {
+    position: absolute;
+    background-color: #fff;
+    z-index: 12;
+    width: 100%;
+    top: 68px;
+    padding: 30px;
+    display: none; }
+    #header #searchmenu.active {
+      display: block; }
+    #header #searchmenu form {
+      position: relative; }
+      #header #searchmenu form input.text {
+        width: 100%;
+        border: none;
+        background-color: #F7F7F7;
+        height: 56px; }
+      #header #searchmenu form span.close {
+        position: absolute;
+        top: 14px;
+        right: 15px; }
+      #header #searchmenu form input.submit {
+        background: url("../img/search-menu.png") no-repeat;
+        position: absolute;
+        top: 14px;
+        left: 15px;
+        width: 27px;
+        height: 27px;
+        border: none; }
   #header #header-rg .search {
-    margin: 0 30px 0 0; }
+    margin: 0 30px 0 0;
+    cursor: pointer; }
   #header #header-rg .cart {
     position: relative;
     margin: 0 35px 0 0; }
