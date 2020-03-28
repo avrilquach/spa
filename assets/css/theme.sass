@@ -52,16 +52,26 @@ input, select
   background-color: #38C2DC
   padding: 12px 0
   position: relative
-
-  .icon
-    background: url("../img/i-menu.png") no-repeat
-    width: 32pxF
-    height: 22px
-
+  .search
+    .bg
+      background: rgba(237, 237, 237, 0.2)
+      width: 32px
+      border-radius: 50%
+      text-align: center
+      height: 32px
+      .icon-search
+        color: #fff
+        line-height: 32px
+      
+  .icon-menu
+    font-size: 32px
+    color: #fff
     &.active
       background: url("../img/close.png") no-repeat
       height: 32px
       width: 32px
+      &::before
+        display: none
   #logo
     img 
       width: 170px
@@ -185,7 +195,9 @@ input, select
     .cart
       position: relative
       margin: 0 35px 0 0
-
+      .icon-cart
+        font-size: 27px
+        color: #fff
       span
         position: absolute
         width: 17px
@@ -266,7 +278,9 @@ input, select
       -ms-flex-pack: justify
       justify-content: space-between
       margin: 5px 0 0 0
-
+      .icon
+        font-size: 24px 
+        color: #DADADA
       span
         font-family: 'Nunito-ExtraLight'
         font-size: 16px

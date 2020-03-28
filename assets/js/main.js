@@ -40,7 +40,7 @@ $(document).ready(function () {
         }
     })
     AOS.init();
-    $("#menu .icon").click(function () {
+    $("#menu .icon-menu").click(function () {
         $(this).toggleClass("active");
         if($('#openmenu').hasClass('active'))
         {
