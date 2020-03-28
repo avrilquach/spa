@@ -63,7 +63,6 @@ $(document).ready(function () {
     $('a.nav-link').click(function(e){
         $('.open_tab_dichvu').toggleClass("active");
     })
-    //Date TimePicker
 	if($('.datetimepicker').length) {
 		$('.datetimepicker').datetimepicker({
 			dayOfWeekStart : 1,
