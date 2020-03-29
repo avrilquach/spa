@@ -39,15 +39,15 @@ a {
 input, select {
   font-family: Nunito;
   font-size: 16px;
-  color: #636363; }
+  color: #8e8c8c; }
   input::-webkit-input-placeholder, select::-webkit-input-placeholder {
-    color: #636363; }
+    color: #8e8c8c; }
   input:-ms-input-placeholder, select:-ms-input-placeholder {
-    color: #636363; }
+    color: #8e8c8c; }
   input::-ms-input-placeholder, select::-ms-input-placeholder {
-    color: #636363; }
+    color: #8e8c8c; }
   input::placeholder, select::placeholder {
-    color: #636363; }
+    color: #8e8c8c; }
 
 .row {
   margin-left: 0;
@@ -335,7 +335,7 @@ input, select {
   .breadcrumb.thanhtoan {
     background-color: #fff; }
     .breadcrumb.thanhtoan h1 {
-      margin: 0; }
+      margin: 0; padding:30px 0 10px 0; }
       .breadcrumb.thanhtoan h1 span:nth-child(1) {
         font-family: Prata;
         font-size: 50px;
@@ -701,7 +701,7 @@ input, select {
             .section.bg-9 .bg-2 .text ul li .icon {
               margin: 0 20px 0 0;
               color: #38C2DC;
-              font-size: 15px; }
+              font-size: 17px; }
             .section.bg-9 .bg-2 .text ul li span, .section.bg-9 .bg-2 .text ul li a {
               font-size: 16px;
               color: #000;
@@ -719,7 +719,13 @@ input, select {
       font-family: 'Nunito-ExtraLight';
       line-height: 35px;
       color: #464646;
-      margin: 0 0 50px 0; }
+      margin: 0 0 50px 0; 
+	  padding:0 5%;}
+@media(max-width: 991.98px){
+	.section .heading p{
+		padding:0 15px;
+	}
+}
     .section .heading span.line {
       width: 100px;
       height: 1px;
@@ -994,7 +1000,7 @@ input, select {
   .form-general .form-group.date {
     position: relative; }
     .form-general .form-group.date .img {
-      width: 90px;
+      width: 70px;
       line-height: 50px;
       background: #38C2DC;
       position: absolute;
@@ -1013,7 +1019,7 @@ input, select {
   .form-general .form-input select {
     width: 100%;
     border: 0px;
-    height: 58px;
+    height: 50px;
     background: transparent; }
 
 .form-general span.err {
@@ -1084,6 +1090,9 @@ input, select {
         .details .social ul li .icon {
           color: #636363;
           font-size: 18px; }
+.comments{
+	padding:30px 0 0 0;
+}
   .details .comments h3 {
     font-family: Prata;
     font-size: 30px;
@@ -1219,8 +1228,8 @@ input, select {
         width: 40%; }
         .giohang_ct .cart .cart-item .text h2 {
           font-family: Nunito;
-          font-size: 20px;
-          line-height: 30px;
+          font-size: 16px;
+          line-height: 25px;
           text-transform: uppercase;
           color: #000000; }
         .giohang_ct .cart .cart-item .text p {
@@ -1380,7 +1389,8 @@ input, select {
   .thanhtoan_ct .thong-tin-giao-hang {
     background-color: #fff;
     margin: 30px 0 0 0;
-    height: 100%; }
+    height: 100%; 
+	padding:0 15px;}
     .thanhtoan_ct .thong-tin-giao-hang .head {
       padding: 30px 15px 15px 15px; }
       .thanhtoan_ct .thong-tin-giao-hang .head h2 {
@@ -1430,7 +1440,7 @@ input, select {
       margin: 0 0 15px 0; }
       .thanhtoan_ct .don-hang .don-hang-item span.text {
         font-family: Nunito;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
         text-transform: uppercase;
         color: #000000; }
@@ -1512,13 +1522,14 @@ input, select {
     display: block; }
     .news_top .left .item h2 {
       position: absolute;
-      bottom: 0;
+      bottom: -10px;
       padding: 30px;
       font-family: Nunito;
       font-size: 40px;
       line-height: 50px;
       color: #FFFFFF;
-      background: rgba(0, 0, 0, 0.5); }
+      background: linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#000000", GradientType=0 ); }
   .news_top .right .item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1537,7 +1548,7 @@ input, select {
       .news_top .right .item .text h2 {
         font-family: Nunito;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 26px;
         color: #212121; }
       .news_top .right .item .text p {
@@ -1613,7 +1624,7 @@ input, select {
         width: 100%; }
     .news_bottom .left .item .text {
       width: 50%;
-      padding: 0 0 0 15px; }
+      padding: 0 0 0 20px; }
       .news_bottom .left .item .text h2 {
         font-family: Nunito;
         font-weight: 600;
@@ -1761,7 +1772,7 @@ input, select {
       font-size: 25px;
       line-height: 40px;
       text-transform: uppercase;
-      color: #636363; }
+      color: #212121; }
     .product_detail_ct .tab-content #mota p {
       font-family: Nunito;
       font-size: 20px;
@@ -1788,88 +1799,87 @@ input, select {
       text-align: center; }
   .number-order input.text {
     padding: 0 40px 0 20px; }
-
-#danhgia p {
-  font-family: Nunito;
-  font-size: 25px;
-  line-height: 34px;
-  color: #38C2DC;
-  text-transform: uppercase;
-  margin: 0 0 20px 0; }
-  #danhgia p span {
-    color: #000; }
-
-#danhgia h4 {
-  font-family: Nunito;
-  font-size: 25px;
-  line-height: 34px;
-  text-transform: uppercase;
-  color: #000000;
-  margin: 0 0 20px 0; }
-
-#danhgia ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 0 30px 0;
-  padding: 0; }
-  #danhgia ul li {
-    list-style: none;
-    padding: 0 20px 0 0;
-    margin: 0 20px 0 0;
-    border-right: 1px solid #C4C4C4; }
-    #danhgia ul li:last-child {
-      border-right: none; }
-
-#danhgia form .textarea {
-  width: 100%;
-  height: 243px;
-  background: #FAFAFA;
-  border: 1px solid #E8E8E8;
-  border-radius: 5px;
-  margin: 0 0 20px 0;
-  padding: 0 20px; }
-
-#danhgia form .input- {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-  #danhgia form .input- .text {
-    width: 49%;
-    height: 50px;
-    background: #FAFAFA;
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
-    padding: 0 20px; }
-
-#danhgia form .checkbox- {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 20px 0; }
-  #danhgia form .checkbox- label {
-    margin: 0 0 0 10px;
-    font-family: Nunito;
-    font-size: 16px;
-    line-height: 22px;
-    color: #636363; }
-
-#danhgia form .submit {
-  width: 200px;
-  height: 60px;
-  background: #38C2DC;
-  border-radius: 30px;
-  font-family: Nunito;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  line-height: 60px; }
-
+    #danhgia p {
+      font-family: Nunito;
+      font-size: 25px;
+      line-height: 34px;
+      color: #38C2DC;
+      text-transform: uppercase;
+      margin: 0 0 20px 0; }
+      #danhgia p span {
+        color: #000; }
+    
+    #danhgia h4 {
+      font-family: Nunito;
+      font-size: 25px;
+      line-height: 34px;
+      text-transform: uppercase;
+      color: #000000;
+      margin: 0 0 20px 0; }
+    
+    #danhgia ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 0 30px 0;
+      padding: 0; }
+      #danhgia ul li {
+        list-style: none;
+        padding: 0 20px 0 0;
+        margin: 0 20px 0 0;
+        border-right: 1px solid #C4C4C4; }
+        #danhgia ul li:last-child {
+          border-right: none; }
+    
+    #danhgia form .textarea {
+      width: 100%;
+      height: 243px;
+      background: #FAFAFA;
+      border: 1px solid #E8E8E8;
+      border-radius: 5px;
+      margin: 0 0 20px 0;
+      padding: 0 20px; }
+    
+    #danhgia form .input- {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      #danhgia form .input- .text {
+        width: 49%;
+        height: 50px;
+        background: #FAFAFA;
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+        padding: 0 20px; }
+    
+    #danhgia form .checkbox- {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 20px 0; }
+      #danhgia form .checkbox- label {
+        margin: 0 0 0 10px;
+        font-family: Nunito;
+        font-size: 16px;
+        line-height: 22px;
+        color: #636363; }
+    
+    #danhgia form .submit {
+      width: 200px;
+      height: 60px;
+      background: #38C2DC;
+      border-radius: 30px;
+      font-family: Nunito;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      line-height: 60px;
+      border: none;}    
 .mobile {
   display: none; }

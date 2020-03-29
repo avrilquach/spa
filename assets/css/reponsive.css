@@ -6,7 +6,9 @@
     margin: 0 0 30px 0; }
   .section.bg-3 .right {
     padding: 0; }
-    .section.bg-3 .right .item.item-text-left .text, .section.bg-3 .right .item.item-text-left img, .section.bg-3 .right .item.item-text-right .text, .section.bg-3 .right .item.item-text-right img {
+    .section.bg-3 .right .item.item-text-left .text, .section.bg-3 .right .item.item-text-left img {
+      width: 100%; }
+    .section.bg-3 .right .item.item-text-right .text, .section.bg-3 .right .item.item-text-right img {
       width: 100%; }
     .section.bg-3 .right .item.item-text-left {
       margin: 0 0 30px 0; }
@@ -21,7 +23,7 @@
     right: 0;
     bottom: -20px; }
   .section.bg-9 .bg-2 {
-    padding: 30px 0; }
+    padding: 30px 15px; }
   .introduce_ct .item:nth-child(1) {
     margin: 0 0 30px 0; }
   .booking_ct .booking_inn {
@@ -39,9 +41,7 @@
       position: unset; }
     .giohang_ct .cart .cart-item .number {
       margin: 10px 0 0 0; }
-  .news_top .left .item {
-    margin: 0 0 30px 0; }
-  .product_detail_ct .left img {
+  .news_top .left .item, .product_detail_ct .left img {
     margin: 0 0 30px 0; } }
 
 @media (max-width: 767px) {
@@ -109,10 +109,7 @@
         top: 0; }
     .section.bg-9 .bg-2 .text {
       padding: 0 15px; }
-  .breadcrumb.thanhtoan h1 span:nth-child(1) {
-    font-size: 30px;
-    padding: 0 15px; }
-  .breadcrumb h1 span:nth-child(1) {
+  .breadcrumb.thanhtoan h1 span:nth-child(1), .breadcrumb h1 span:nth-child(1) {
     font-size: 30px;
     padding: 0 15px; }
   .introduce_ct h2 {
@@ -130,8 +127,10 @@
       padding: 0;
       margin: 0; }
       .giohang_ct .cart .cart-item .img {
-        margin: 0 0 20px 0; }
-      .giohang_ct .cart .cart-item .img, .giohang_ct .cart .cart-item .text, .giohang_ct .cart .cart-item .price, .giohang_ct .cart .cart-item .number {
+        margin: 0 0 20px 0;
+        width: 100%;
+        padding: 0; }
+      .giohang_ct .cart .cart-item .text, .giohang_ct .cart .cart-item .price, .giohang_ct .cart .cart-item .number {
         width: 100%;
         padding: 0; }
       .giohang_ct .cart a.next {
@@ -245,8 +244,8 @@
       margin: 30px 0 0 0;
       padding: 0 15px; }
   .container {
-    padding-left: 0;
-    padding-right: 0; }
+    padding-left: 15px;
+    padding-right: 15px; }
   .details {
     padding: 15px; }
   #danhgia ul {
@@ -258,3 +257,25 @@
       border-bottom: 1px solid #C4C4C4; }
       #danhgia ul li:last-child {
         border-bottom: none; } }
+
+@media (max-width: 991.98px) {
+  .giohang_ct .container, .news_ct .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .product_detail_ct .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .product_detail_ct .tab-content #mota h2 {
+    font-size: 20px;
+    line-height: 35px; }
+  .product_detail_ct .tab-content #mota h3 {
+    font-size: 20px;
+    color: #212121; }
+  .sanpham_ct .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .thanhtoan_ct .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .thanhtoan_ct .thong-tin-giao-hang .head h2 {
+    text-align: center; } }
