@@ -248,4 +248,13 @@
     padding-left: 0;
     padding-right: 0; }
   .details {
-    padding: 15px; } }
+    padding: 15px; }
+  #danhgia ul {
+    display: block; }
+    #danhgia ul li {
+      margin: 0 0 20px 0;
+      padding: 0 0 20px 0;
+      border-right: none;
+      border-bottom: 1px solid #C4C4C4; }
+      #danhgia ul li:last-child {
+        border-bottom: none; } }
