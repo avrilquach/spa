@@ -887,7 +887,9 @@ input::-webkit-input-placeholder, select::-webkit-input-placeholder, input:-ms-i
       line-height: 30px;
       color: #000000; }
       .dichvu_ct .thong-tin-lien-he p a {
-        color: #000000; }
+        color: #636363; }
+      .dichvu_ct .thong-tin-lien-he p span {
+        color: #636363; }
 
 .sanpham_ct {
   background-color: #fff; }
