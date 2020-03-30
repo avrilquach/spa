@@ -1899,7 +1899,10 @@ input::-webkit-input-placeholder, select::-webkit-input-placeholder, input:-ms-i
   justify-content: space-between;
   z-index: 20;
   width: 100%;
-  padding: 0 15px; }
+  padding: 0 15px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
   #footer-nav a {
     width: 49%; }
     #footer-nav a img {
